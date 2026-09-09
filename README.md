@@ -41,7 +41,7 @@ Screenshots/
   08_Orbital_Station_Scene.jpg
 ```
 
-Playable Demo
+## Playable Demo
 
 A playable vertical slice of A.I.R.A. demonstrates the relay-network mission,
 hostile drones, mission HUD, Primary Transmission System and mission completion.
