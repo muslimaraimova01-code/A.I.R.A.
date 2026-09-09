@@ -77,9 +77,6 @@ Binary Unreal assets (`.uasset`, `.umap`) and licensed third-party content are i
 
 See [`Documentation/VISUAL_OVERVIEW.md`](Documentation/VISUAL_OVERVIEW.md) for the complete visual set and short technical captions.
 
-## Technical documentation
-
-See [`Documentation/CODE_OVERVIEW.md`](Documentation/CODE_OVERVIEW.md) for a file-by-file explanation of the exported source and its role in the playable vertical slice.
 
 ## Flight Boost / Afterburner System
 
@@ -99,6 +96,10 @@ The afterburner uses an independent rechargeable **BoostEnergy** resource:
 A native Unreal Slate HUD displays the BOOST battery, percentage, and current state on the right side of the gameplay viewport.
 
 The feature is implemented in C++ and has been integrated and tested with the player drone in the current A.I.R.A. playable prototype.
+
+## Technical documentation
+
+See [`Documentation/CODE_OVERVIEW.md`](Documentation/CODE_OVERVIEW.md) for a file-by-file explanation of the exported source and its role in the playable vertical slice.
 
 ## Rights and publication scope
 
