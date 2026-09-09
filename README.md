@@ -81,6 +81,25 @@ See [`Documentation/VISUAL_OVERVIEW.md`](Documentation/VISUAL_OVERVIEW.md) for t
 
 See [`Documentation/CODE_OVERVIEW.md`](Documentation/CODE_OVERVIEW.md) for a file-by-file explanation of the exported source and its role in the playable vertical slice.
 
+## Flight Boost / Afterburner System
+
+A.I.R.A. includes a native C++ afterburner system for the player-controlled drone.
+
+Hold **LEFT SHIFT** while flying to engage the boost. The system increases the drone's maximum flight speed and acceleration by **3x**, using the existing `UFloatingPawnMovement` component without replacing the normal movement system.
+
+The afterburner uses an independent rechargeable **BoostEnergy** resource:
+
+- 100 maximum BoostEnergy
+- approximately 10 seconds of continuous moving boost
+- 1.5-second recharge delay
+- approximately 15 seconds for a full recharge
+- partial charge can be reused at any time
+- automatic boost shutdown when the battery reaches 0%
+
+A native Unreal Slate HUD displays the BOOST battery, percentage, and current state on the right side of the gameplay viewport.
+
+The feature is implemented in C++ and has been integrated and tested with the player drone in the current A.I.R.A. playable prototype.
+
 ## Rights and publication scope
 
 Copyright © 2026 ArtSea Games LLC. All rights reserved.
