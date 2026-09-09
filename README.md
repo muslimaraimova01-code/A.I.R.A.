@@ -46,9 +46,7 @@ Playable Demo
 A playable vertical slice of A.I.R.A. demonstrates the relay-network mission,
 hostile drones, mission HUD, Primary Transmission System and mission completion.
 
-
-
-https://www.youtube.com/watch?v=5vIEaBbYhiU## 
+https://www.youtube.com/watch?v=l9h4iGE6bBo 
 
 ## Unreal Engine architecture
 
