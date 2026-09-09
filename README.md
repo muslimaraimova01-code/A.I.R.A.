@@ -41,6 +41,15 @@ Screenshots/
   08_Orbital_Station_Scene.jpg
 ```
 
+Playable Demo
+
+A playable vertical slice of A.I.R.A. demonstrates the relay-network mission,
+hostile drones, mission HUD, Primary Transmission System and mission completion.
+
+
+
+https://www.youtube.com/watch?v=5vIEaBbYhiU## 
+
 ## Unreal Engine architecture
 
 A.I.R.A. uses a hybrid Unreal Engine architecture:
